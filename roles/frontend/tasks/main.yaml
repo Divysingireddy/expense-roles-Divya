@@ -37,8 +37,8 @@
     notify: 
     - restart nginx
 
-# if there is any change in configuration only, we need to restart the server,now everywhere there is a change
-# so we need to restart everytime
+  # if there is any change in configuration only, we need to restart the server,now everywhere there is a change
+  # so we need to restart everytime
   # - name: restart nginx
   #   ansible.builtin.service:
   #     name: nginx
