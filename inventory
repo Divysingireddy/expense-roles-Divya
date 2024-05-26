@@ -6,3 +6,6 @@ backend.divaws78s.online
 
 [frontend]
 divaws78s.online
+
+[all: vars]
+ansible_password=DevOps321 
