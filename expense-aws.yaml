@@ -1,7 +1,5 @@
 - name: create ec2 instance and r53 records
   hosts: localhost
-  vars:
-    zone: divaws78s.online
   tasks:
   - name: create ec2 instance
     amazon.aws.ec2_instance:
